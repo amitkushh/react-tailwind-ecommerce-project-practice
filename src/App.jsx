@@ -1,9 +1,12 @@
-import "./App.css";
+import { Routes, Route} from 'react-router-dom'
+import Home from "./pages/Home.jsx"
 
 function App() {
   return (
     <>
-      <h1 className="bg-red-500 text-blue font-semibold">Hello World</h1>
+    <Routes>
+      <Route path="/" element={<Home />}/>
+    </Routes>
     </>
   );
 }
