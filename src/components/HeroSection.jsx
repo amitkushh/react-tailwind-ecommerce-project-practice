@@ -3,8 +3,8 @@ import { CirclePlay } from "lucide-react";
 
 function HeroSection() {
   return (
-    <div className="flex justify-center items-center w-1/2 px-20 py-36 border-b-2">
-      <div>
+    <div className="flex justify-center items-center px-20 py-36 border-b-2">
+      <div className="w-1/2">
         <h1 className="text-black text-5xl font-extrabold min-w-[500px] mb-9">
           Dive into Delights Of Delectable{" "}
           <span className="text-green">Food</span>
