@@ -13,6 +13,7 @@ export default {
         para: "#4A4A4A",
         navbar: "#272727",
         red: "#FF6868",
+        popular: "#C1F1C6",
       },
     },
   },
