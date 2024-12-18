@@ -40,7 +40,7 @@ function SpecialDishes() {
       <div className="flex justify-center items-center gap-9">
         {specialDishes.map((dishes, index) => (
           <div
-            className="flex flex-col justify-center p-7 border-2 rounded-3xl h-[523px] w-[446px]"
+            className="flex flex-col justify-center p-7 rounded-3xl h-[523px] w-[446px] shadow-3xl"
             key={index}
           >
             <img src={dishes.topImage} alt="dishes" />

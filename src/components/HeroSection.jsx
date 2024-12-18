@@ -1,7 +1,23 @@
 import React from "react";
 import { CirclePlay } from "lucide-react";
+import spicy from "../assets/hero-section/food-one.svg";
+import salad from "../assets/hero-section/food-two.svg";
+import girl from "../assets/hero-section/girl.svg";
 
 function HeroSection() {
+  const foodItems = [
+    {
+      image: spicy,
+      title: "Spicy noodles",
+      price: "18.00",
+    },
+    {
+      image: salad,
+      title: "Vegetarian salad",
+      price: "18.00",
+    },
+  ];
+
   return (
     <div className="flex justify-center items-center px-20 py-36 border-b-2">
       <div className="w-1/2">
@@ -22,7 +38,13 @@ function HeroSection() {
           </button>
         </div>
       </div>
-      <div className="w-1/2"></div>
+      <div className="w-1/2">
+        <div>
+          <div>
+            <img src={girl} alt="girl" />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

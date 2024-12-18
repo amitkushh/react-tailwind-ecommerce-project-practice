@@ -1,16 +1,19 @@
 import React from "react";
 import { Search, ShoppingBag, PhoneCall } from "lucide-react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <>
       <header className="flex justify-between items-center py-3 px-20 border-b-2">
-        <div className="flex justify-center items-center gap-1">
-          <span className="bg-green p-2 font-bold text-2xl rounded-md text-white">
-            F
-          </span>
-          <p className="font-bold text-2xl">OODI</p>
-        </div>
+        <Link to="/">
+          <div className="flex justify-center items-center gap-1">
+            <span className="bg-green p-2 font-bold text-2xl rounded-md text-white h-9 w-9 flex justify-center items-center">
+              F
+            </span>
+            <p className="font-bold text-2xl">OODI</p>
+          </div>
+        </Link>
         <nav>
           <ul className="flex justify-center items-center gap-11 text-xl font-medium pl-16 text-navbar">
             <li>Home</li>

@@ -38,7 +38,7 @@ function PopularCategory() {
         {categoryBox.map((category, index) => (
           <div
             key={index}
-            className="h-[260px] w-[260px] border-2 rounded-3xl flex flex-col justify-center items-center"
+            className="h-[260px] w-[260px] shadow-3xl rounded-3xl flex flex-col justify-center items-center"
           >
             <div className="rounded-full h-32 w-32 p-3 bg-popular flex items-center justify-center">
               <img src={category.image} alt="food" width={80} height={80} />

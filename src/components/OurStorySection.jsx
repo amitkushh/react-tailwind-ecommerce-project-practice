@@ -29,7 +29,7 @@ function OurStorySection() {
   ];
 
   return (
-    <div className="flex justify-center items-center px-20 py-36 border-b-2">
+    <div className="flex justify-center items-center px-20 py-36">
       <div className="w-1/2 flex flex-col items-start">
         <span className="text-xl font-bold text-red mb-7">
           Our Story & Services
