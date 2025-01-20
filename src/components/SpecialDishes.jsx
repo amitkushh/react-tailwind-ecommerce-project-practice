@@ -30,24 +30,26 @@ function SpecialDishes() {
   ];
 
   return (
-    <div className="flex flex-col px-20 pt-6 pb-20">
+    <div className="flex flex-col px-8 pt-6 pb-20">
       <span className="text-xl font-bold text-red mb-3">Special Dishes</span>
       <div className="flex justify-between items-center">
         <h2 className="text-4xl font-bold mb-10">
           Standout Dishes From Our Menu
         </h2>
       </div>
-      <div className="flex justify-center items-center gap-9">
+
+      {/* temporary grid check design */}
+      <div className="grid grid-cols-2 justify-center items-center ">
         {specialDishes.map((dishes, index) => (
           <div
-            className="flex flex-col justify-center p-7 rounded-3xl h-[523px] w-[446px] shadow-3xl"
+            className="flex flex-col justify-center  p-7  rounded-3xl h-[200px] w-[150px] shadow-3xl"
             key={index}
           >
             <img src={dishes.topImage} alt="dishes" />
-            <span className="text-xl font-semibold mt-4">{dishes.title}</span>
-            <p className="text-[18px] text-para mt-2">{dishes.para}</p>
-            <div className="flex justify-between items-center mt-7">
-              <span className="flex justify-center items-center gap-1 font-semibold text-xl">
+            <span className="text-lg font-semibold mt-4 ">{dishes.title}</span>
+            <p className="text-[15px] text-para mt-2 ">{dishes.para}</p>
+            <div className="flex justify-between items-center ">
+              <span className="flex justify-center items-center gap-1 font-semibold text-lg">
                 <span className="text-red">$</span>
                 {dishes.price}
               </span>

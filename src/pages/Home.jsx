@@ -13,7 +13,9 @@ function Home() {
     <Navbar />
     <HeroSection />
     <PopularCategory />
-    <SpecialDishes />
+
+    {/* right now special dishes not designed */}
+    {/* <SpecialDishes /> */}
     <Testimonial />
     <OurStory />
     <Footer />

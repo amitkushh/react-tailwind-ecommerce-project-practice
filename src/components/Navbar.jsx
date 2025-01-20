@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <header className="flex justify-between items-center py-3 px-20 border-b-2">
+      <header className="flex justify-between items-center py-3 px-8 border-b-2">
         <Link to="/">
           <div className="flex justify-center items-center gap-1">
             <span className="bg-green p-2 font-bold text-2xl rounded-md text-white h-9 w-9 flex justify-center items-center">
@@ -14,7 +14,7 @@ function Navbar() {
             <p className="font-bold text-2xl">OODI</p>
           </div>
         </Link>
-        <nav>
+        <nav className="hidden">
           <ul className="flex justify-center items-center gap-11 text-xl font-medium pl-16 text-navbar">
             <li>Home</li>
             <li>Menu</li>
