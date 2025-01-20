@@ -29,15 +29,15 @@ function OurStorySection() {
   ];
 
   return (
-    <div className="flex justify-center items-center px-20 py-36">
-      <div className="w-1/2 flex flex-col items-start">
-        <span className="text-xl font-bold text-red mb-7">
+    <div className="flex flex-col justify-center items-center px-8 py-36">
+      <div className="flex flex-col items-center justify-center ">
+        <span className="text-xl font-bold text-red mb-7 text-center">
           Our Story & Services
         </span>
-        <h2 className="text-4xl font-bold mb-10 max-w-[420px]">
+        <h2 className="text-4xl font-bold mb-10 max-w-[420px] text-center">
           Our Culinary Journey And Services
         </h2>
-        <p className="text-para text-xl mb-14 max-w-[480px]">
+        <p className="text-para text-lg mb-14 text-center">
           Rooted in passion, we curate unforgettable dining experiences and
           offer exceptional services, blending culinary artistry with warm
           hospitality.
@@ -46,12 +46,12 @@ function OurStorySection() {
           Explore
         </button>
       </div>
-      <div className="w-1/2">
-        <div className="grid grid-cols-2 gap-8">
+      <div className="mt-16">
+        <div className="grid grid-cols-2 gap-5">
           {ourStory.map((ourStoryBox, index) => (
             <div
               key={index}
-              className="flex flex-col justify-center items-center w-[250px] h-[270px] shadow-3xl rounded-3xl"
+              className="flex flex-col justify-center items-center w-[200px] h-[220px] shadow-3xl rounded-3xl"
             >
               <img
                 src={ourStoryBox.image}
@@ -62,7 +62,7 @@ function OurStorySection() {
               <span className="text-xl font-semibold text-green mt-3">
                 {ourStoryBox.title}
               </span>
-              <p className="text-[18px] mt-2 text-para max-w-44 text-center">
+              <p className="text-[15px] mt-2 text-para max-w-44 text-center">
                 {ourStoryBox.para}
               </p>
             </div>

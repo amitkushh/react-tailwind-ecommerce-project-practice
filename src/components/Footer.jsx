@@ -6,8 +6,8 @@ import youtube from "../assets/social-media/icon_youtube.svg";
 
 function Footer() {
   return (
-    <div className="px-20 pt-6 pb-10">
-      <div className="grid grid-cols-4">
+    <div className="px-8 pt-6 pb-10">
+      <div className="grid grid-cols-2">
         <div className="flex flex-col">
           <div className="flex items-center gap-1">
             <span className="bg-green p-1 h-8 w-8 flex justify-center items-center font-bold text-xl rounded-md text-white">
@@ -15,12 +15,12 @@ function Footer() {
             </span>
             <p className="font-bold text-2xl">OODI</p>
           </div>
-          <p className="text-[18px] text-para mt-3 max-w-56">
+          <p className="text-[15px] text-para mt-3 ">
             Savor the artistry where every dish is a culinary masterpiece
           </p>
         </div>
         <div>
-          <span className="text-xl font-semibold mt-3  ">Useful links</span>
+          <span className="text-xl font-semibold">Useful links</span>
           <ul className="mt-3 flex flex-col gap-3">
             <li>About us</li>
             <li>Events</li>
@@ -28,7 +28,7 @@ function Footer() {
             <li>FAQ</li>
           </ul>
         </div>
-        <div>
+        <div className="mt-7">
           <span className="text-xl font-semibold ">Main Menu</span>
           <ul className="mt-3 flex flex-col gap-3">
             <li>Home</li>
@@ -37,8 +37,8 @@ function Footer() {
             <li>Reservation</li>
           </ul>
         </div>
-        <div>
-          <span className="text-xl font-semibold mt-3">Useful links</span>
+        <div className="mt-7">
+          <span className="text-xl font-semibold">Useful links</span>
           <ul className="mt-3 flex flex-col gap-3">
             <li>example@email.com</li>
             <li>+64 958 248 966</li>
@@ -47,8 +47,8 @@ function Footer() {
         </div>
       </div>
 
-      <div className="flex justify-between items-center pt-16">
-        <div className="flex justify-center items-center gap-3">
+      <div className="flex flex-col justify-center items-center pt-16">
+        <div className="flex justify-center items-center">
           <a href="#">
             <span className="bg-social rounded-full h-11 w-11 flex justify-center items-center hover:bg-green cursor-pointer">
               <img src={facebook} alt="facebook" height={25} width={25} />
@@ -70,8 +70,8 @@ function Footer() {
             </span>
           </a>
         </div>
-        <div className="pr-96">
-          <span>Copyright &#169; 2024 Dscode | All rights reserved</span>
+        <div className="mt-6">
+          <span>Copyright &#169; 2025 Dscode | All rights reserved</span>
         </div>
       </div>
     </div>
