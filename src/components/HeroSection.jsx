@@ -19,7 +19,7 @@ function HeroSection() {
   ];
 
   return (
-    <div className="flex flex-col justify-center items-center px-8 py-36 border-b-2">
+    <div className="flex flex-col justify-center items-center px-8 py-24 border-b-2">
       <div>
         <h1 className="text-black text-5xl font-bold text-center mb-9">
           Dive into Delights Of Delectable{" "}
@@ -29,8 +29,8 @@ function HeroSection() {
           Where Each Plate Weaves a Story of Culinary Mastery and Passionate
           Craftsmanship
         </p>
-        <div className="flex items-center gap-5 justify-center">
-          <button className="text-lg font-medium px-5 py-2 bg-green rounded-full text-white">
+        <div className="flex flex-col items-center gap-9 justify-center">
+          <button className="text-lg font-medium px-9 py-3 bg-green rounded-full text-white">
             Order Now
           </button>
           <button className="text-lg font-medium flex items-center gap-2">

@@ -29,7 +29,7 @@ function OurStorySection() {
   ];
 
   return (
-    <div className="flex flex-col justify-center items-center px-8 py-36">
+    <div className="flex flex-col justify-center items-center px-8 py-24">
       <div className="flex flex-col items-center justify-center ">
         <span className="text-xl font-bold text-red mb-7 text-center">
           Our Story & Services
@@ -42,16 +42,16 @@ function OurStorySection() {
           offer exceptional services, blending culinary artistry with warm
           hospitality.
         </p>
-        <button className="text-xl font-medium px-5 py-2 bg-green rounded-full text-white">
+        <button className="text-xl font-medium px-12 py-3 bg-green rounded-full text-white">
           Explore
         </button>
       </div>
       <div className="mt-16">
-        <div className="grid grid-cols-2 gap-5">
+        <div className="grid grid-cols-1 gap-5">
           {ourStory.map((ourStoryBox, index) => (
             <div
               key={index}
-              className="flex flex-col justify-center items-center w-[200px] h-[220px] shadow-3xl rounded-3xl"
+              className="flex flex-col justify-center items-center w-[270px] h-[290px] shadow-3xl rounded-3xl"
             >
               <img
                 src={ourStoryBox.image}

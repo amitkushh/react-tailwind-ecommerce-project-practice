@@ -33,14 +33,14 @@ function PopularCategory() {
       <span className="text-xl font-bold text-red mb-3">
         Customer Favorites
       </span>
-      <h2 className="text-4xl font-bold mb-10">Popular Catagories</h2>
-      <div className="grid grid-cols-2 gap-4">
+      <h2 className="text-4xl font-bold mb-10 text-center">Popular Catagories</h2>
+      <div className="grid grid-cols-1 gap-4">
         {categoryBox.map((category, index) => (
           <div
             key={index}
-            className="p-5 h-[200px] w-[200px] shadow-3xl rounded-3xl flex flex-col justify-center items-center"
+            className="p-5 h-[260px] w-[260px] shadow-3xl rounded-3xl flex flex-col justify-center items-center"
           >
-            <div className="rounded-full h-24 w-24 p-3 bg-popular flex items-center justify-center">
+            <div className="rounded-full h-32 w-32 p-3 bg-popular flex items-center justify-center">
               <img src={category.image} alt="food" width={80} height={80} />
             </div>
 

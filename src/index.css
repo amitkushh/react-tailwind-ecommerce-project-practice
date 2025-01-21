@@ -9,3 +9,15 @@
 p {
   font-size: 20px;
 }
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+::selection {
+  background-color: #39DB4A;
+  color: white;
+}

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <header className="flex justify-between items-center py-3 px-8 border-b-2">
+      <header className="flex justify-between items-center py-7 px-8 border-b-2">
         <Link to="/">
           <div className="flex justify-center items-center gap-1">
             <span className="bg-green p-1 font-bold text-xl rounded-md text-white h-7 w-7 flex justify-center items-center">
@@ -22,7 +22,7 @@ function Navbar() {
             <li>Offers</li>
           </ul>
         </nav>
-        <div className="flex justify-center items-center gap-4">
+        <div className="hidden lg:flex lg:justify-center lg:items-center lg:gap-4">
           <Search width={20} height={20} />
           <ShoppingBag width={20} height={20} />
           <button className="flex justify-center items-center gap-2 bg-green px-5 py-2 rounded-full text-white font-medium text-xl">

@@ -15,7 +15,7 @@ function Footer() {
             </span>
             <p className="font-bold text-2xl">OODI</p>
           </div>
-          <p className="text-[15px] text-para mt-3 ">
+          <p className="text-[15px] text-para mt-3 mr-8">
             Savor the artistry where every dish is a culinary masterpiece
           </p>
         </div>
@@ -70,7 +70,7 @@ function Footer() {
             </span>
           </a>
         </div>
-        <div className="mt-6">
+        <div className="mt-6 text-center">
           <span>Copyright &#169; 2025 Dscode | All rights reserved</span>
         </div>
       </div>
